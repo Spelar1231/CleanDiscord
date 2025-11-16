@@ -51,6 +51,9 @@ If you want to preserve an element,
 .avatarDecoration__44b0c {
     display: none;
 }
+.avatarDecoration_c19a55 {
+    display: none;
+}
 
 /* Remove profile effects */
 [class*='profileEffects'] [class*='inner']:has([src*='https://cdn.discordapp.com/assets/content/']) {
