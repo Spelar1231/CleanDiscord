@@ -77,3 +77,22 @@ If you want to preserve an element,
 [class*='wrapper']:has([class*='glow']) {
     display: none;
 }
+
+
+/* Quests (Discord) */
+a[href="/quest-home"] {
+  display: none !important;
+}
+
+/* store (Discord) */
+a[href="/store"] {
+  display: none !important;
+}
+
+
+/* shop (Discord) */
+a[href="/shop"] {
+  display: none !important;
+}
+
+
