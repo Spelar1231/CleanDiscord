@@ -28,7 +28,3 @@ Vencord Online Theme(for auto-updates): https://raw.githubusercontent.com/Spelar
 File Download(for customizability):
 - Open CleanDiscord.theme.css in the repository
 - Download raw file(`CTRL + Shift + S`)
-
-## License
-
-CleanDiscord by Alma is marked CC0 1.0 Universal. To view a copy of this mark, visit https://creativecommons.org/publicdomain/zero/1.0/ 
