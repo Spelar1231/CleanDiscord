@@ -1,29 +1,31 @@
 # CleanDiscord
 
-A CSS file for removing unnecessary stuff from Discord.
+A CSS file for removing unnecessary stuff from Discord for free-to-use users.
 
 ## Changes
 
 Removed:
 - The Activity bar,
-- Clan tags,
+- Server tags,
 - Nitro nameplates,
 - Labels on nitro button in settings,
 - Labels on nitro button in DMs,
 - Pulse gradient in VC,
 - Avatar decorations,
 - Profile effects,
-- Quest popup and shine effect in DMs(removal of the `Quests` button background is in TODO),
-- Custom banner in profiles.
+- Quests, shop and Nitro Home buttons in DMs(andor00 contribution),
+- Server nitro progress bar,
+
+If you don't like one of these changes, you can edit the file to reverse them.
 
 ## Download
 
 >[!NOTE]
 >This file should be compatible with other themes. However, if issues do appear, please open an issue.
 
-Vencord Online Theme: https://raw.githubusercontent.com/Spelar1231/CleanDiscord/refs/heads/main/CleanDiscord.theme.css
+Vencord Online Theme(for auto-updates): https://raw.githubusercontent.com/Spelar1231/CleanDiscord/refs/heads/main/CleanDiscord.theme.css
 
-File Download:
+File Download(for customizability):
 - Open CleanDiscord.theme.css in the repository
 - Download raw file(`CTRL + Shift + S`)
 

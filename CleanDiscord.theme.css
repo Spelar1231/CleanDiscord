@@ -20,13 +20,13 @@ If you want to preserve an element,
     display: none;
 }
 
-/* Remove clan tags */
+/* Remove clan/guild tags */
 [class*='clanTag']:has([class*='badge']) {
     display: none;
 }
 
 /* Remove nitro nameplates */
-.container__4bbc6 {
+[class*='container'] [style*='background: linear-gradient'] {
     display: none;
 }
 
@@ -34,8 +34,6 @@ If you want to preserve an element,
 [class*='premiumTab'] [class*='premiumLabel']:has([role*='img']) {
     display: none;
 }
-
-/* TODO: remove the bg coloring from the quest button */
 
 /* Remove labels on nitro button in DMs */
 [class*='premiumTrialBadge']:has([class*='eyebrow']) {
@@ -48,20 +46,12 @@ If you want to preserve an element,
 }
 
 /* Remove avatar decorations */
-.avatarDecoration__44b0c {
-    display: none;
-}
-.avatarDecoration_c19a55 {
+[src*='/avatar-decoration'] {
     display: none;
 }
 
 /* Remove profile effects */
-[class*='profileEffects'] [class*='inner']:has([src*='https://cdn.discordapp.com/assets/content/']) {
-    display: none;
-}
-
-/* Remove custom banner in profiles */
-[class*='mask'] [class*='banner'] {
+[class*='profileEffects'] {
     display: none;
 }
 
@@ -78,21 +68,22 @@ If you want to preserve an element,
     display: none;
 }
 
-
-/* Quests (Discord) */
+/* Remove quests button in DMs(andor00 contribution) */
 a[href="/quest-home"] {
   display: none !important;
 }
 
-/* store (Discord) */
+/* Remove Nitro Home button in DMs(andor00 contribution) */
 a[href="/store"] {
   display: none !important;
 }
 
-
-/* shop (Discord) */
+/* Remove the shop button in DMs(andor00 contribution) */
 a[href="/shop"] {
   display: none !important;
 }
 
-
+/* Remove server boost goal */
+[class*='-container'][class*='-containerWithMargin']:has([class*='contentContainer']){
+    display: none;
+}
